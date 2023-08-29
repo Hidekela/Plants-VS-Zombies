@@ -1,0 +1,69 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* page d'accueil */
+.accueil
+{
+    background: url("images/accueil.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section a
+{
+    text-decoration: none;
+    font-family: Comic Sans MS;
+    font-size: xx-large;
+    background:sienna;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+/* page du jeu : game.html */
+.game
+{
+    background: url("images/Area/background1unsodded.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tapis
+{
+    width: 600px;
+    position: absolute;
+    bottom: 100px;
+    left: 190px;
+}
+.plant
+{
+    position: absolute;
+    bottom: 120px;
+    left: 250px;
+}
+.ball
+{
+    position: absolute;
+    bottom: 160px;
+    left: 280px;
+}
+.zombie
+{
+    position: absolute;
+    bottom: 120px;
+    left: 600px;
+}
+.gamestat
+{
+    font-family: Comic Sans MS;
+    font-size: 80px;
+    font-weight: bold;
+    color: red;
+    z-index: 1;
+}
